@@ -30,10 +30,14 @@ a {
     color: #00008B;
 }
 
+.first-view {
+    position: relative;
+}
+
 .first-view__txt {
     width: 720px;
     position: absolute;
-    bottom: 170px;
+    top: 40vh;
     left: 5px;
     font-size: 55px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -43,14 +47,13 @@ a {
     background-color: #00008B;
     position: absolute;
     left: 0;
-    width: 800px;
+    width: 60%;
     height: 150px;
-    bottom: 15px;
+    top: 55vh;
 }
 
 .first-view__img {
-    margin-left: auto;
+    margin: 5px 0 0 auto;
     display: block;
     width: 50%;
-    position: relative;
 }
