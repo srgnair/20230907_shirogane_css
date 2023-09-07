@@ -1,28 +1,20 @@
-html {
-    height: 100%;
-}
-
-body {
-    height: 100%;
-    box-sizing: border-box;
-}
-
 header {
     display: flex;
-    margin: 1%;
+    margin: 15px 10px;
     justify-content: space-between;
     align-items: center;
-    height: 15%;
 }
 
 .header__logo {
-    font-size: 35px;
+    font-size: 30px;
     color: #00008B;
+    padding-left: 10px;
 }
 
 .header__list {
     display: flex;
     list-style: none;
+    padding-right: 10px;
 }
 
 .header__list-txt {
@@ -38,18 +30,12 @@ a {
     color: #00008B;
 }
 
-.first-view {
-    position: relative;
-    height: 85%;
-}
-
 .first-view__txt {
     width: 720px;
     position: absolute;
-    top: 230px;
+    bottom: 170px;
     left: 5px;
-    font-size: 50px;
-    z-index: 0;
+    font-size: 55px;
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -59,16 +45,12 @@ a {
     left: 0;
     width: 800px;
     height: 150px;
-    top: 325px;
-    z-index: 10;
+    bottom: 15px;
 }
 
 .first-view__img {
-    margin: 0 0 0 auto;
+    margin-left: auto;
     display: block;
     width: 50%;
-    height: auto;
-    position: absolute;
-    right: 0;
-    z-index: 20;
+    position: relative;
 }
